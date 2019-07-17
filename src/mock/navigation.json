@@ -1,0 +1,6 @@
+{
+    "navigation" : [   
+        {"id": 1, "exact": "true", "path": "calendar", "name": "calendar"},
+        {"id": 2, "exact": "false", "path": "update", "name": "update"},
+    ],
+}

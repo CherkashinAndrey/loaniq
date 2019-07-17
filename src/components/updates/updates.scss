@@ -1,0 +1,53 @@
+.table {
+    border-collapse: collapse;
+    thead {
+        tr {
+            th {
+
+            }
+        }
+    }
+    tbody {
+        tr {
+            &:nth-child(even) {
+                background-color: #f3f3f3;
+            }
+            th {
+                padding: 10px 5px;
+            }
+            td {
+                padding: 15px 5px;
+            }
+        }
+    }
+
+    .number {
+        width: 0px;
+    }
+
+    .date {
+        width: 15%;
+        min-width: 170px;
+        color: #ddd;
+    }
+    .text {
+        width: 15%;
+        min-width: 140px;
+        color: rgb(24, 46, 240);
+    }
+    .description {
+        width: 100%;
+    }
+    .status {
+        width: 3%;
+        min-width: 20px;
+        &.active {
+            color: rgb(24, 46, 240);
+        }
+        &.diactivate {
+            span {
+                display: none;
+            }    
+        }
+    }
+}
