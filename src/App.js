@@ -8,6 +8,7 @@ import Layout from './hoc/Layout/Layout';
 import * as actions from './store/actions/index';
 import Updates from './components/updates/updates.component';
 import Calendar from './components/Calendar/calendar.component';
+import Clients from './components/Clients/Clients.component';
 
 
 class App extends Component {
@@ -20,7 +21,8 @@ class App extends Component {
         <Switch>
           <Route path="/update" component={Updates} />
           <Route path="/calendar" component={Calendar} />
-          <Redirect to="/update" />
+          <Route path="/clients" component={Clients} />
+          <Redirect to="/clients" />
         </Switch>
     );
 
@@ -31,8 +33,8 @@ class App extends Component {
             {/* <Route path="/logout" component={Logout} /> */}
             {/* <Route path="/auth" component={asyncAuth} /> */}
             <Route path="/update" component={Updates} />
-
-            <Redirect to="/update" />
+            <Route path="/clients" component={Clients} />
+            <Redirect to="/clients" />
           </Switch>
       );
     }

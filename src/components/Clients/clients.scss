@@ -1,0 +1,85 @@
+.pageClients {
+    padding: 15px;
+    background-color: #ececec;
+   
+    .wrapPageClients {
+        display: flex;
+        background-color: #fff;
+        border-radius: 5px;
+        
+        .pageClientsTable {
+            flex: 0 50%;
+            padding: 0 20px;
+        }
+
+        .informationClient {
+
+            .wrapInformationClientField {
+                padding: 10px 0;
+                .labelInput {
+                    width: 200px;
+                    color: #ddd;
+                 }
+            }
+        }
+
+        .wrapProfileInfo {
+            flex: 0 50%;
+            display: block;
+            .profileClientInfo {
+                padding: 0px 15px;
+            }
+            .profileCompanyInfo {
+                .companyInfoField {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px 15px;
+                    &:nth-child(even) {
+                        background-color: #f3f3f3;
+                    }
+                    
+                    .companyInfoFieldLeft {
+                        display: table;
+                        .infoField {
+
+                        }
+                        .infoFieldDescription {
+                            color: #ddd;
+                            font-size: 14px
+                        }
+                    }
+                    .companyInfoFieldRight {
+                        display: flex;
+                        
+                        .publisher {
+                            padding: 0 20px;
+                            display: flex;
+                            align-items: center;
+                            span {
+                                background-color: blue;
+                                color: #fff;
+                                padding: 2px 10px;
+                                border-radius: 15px;
+                            }
+                        } 
+                        .centered {
+                            display: flex;
+                            align-items: center;
+                        }                      
+                    }
+                }   
+            }
+        }
+    
+    }
+
+    .wTabeHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+
+

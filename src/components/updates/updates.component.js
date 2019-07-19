@@ -4,7 +4,6 @@ import classes from './updates.scss';
 
 const Updates = ( props ) => {
     return (
-        // <div>
             <table className="table">
             <thead className="thead-dark">
                 <tr>
@@ -60,7 +59,6 @@ const Updates = ( props ) => {
                 </tr>
             </tbody>
             </table>
-        // </div>
     );
 };
 

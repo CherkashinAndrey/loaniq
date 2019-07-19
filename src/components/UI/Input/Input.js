@@ -1,6 +1,7 @@
 import React from 'react';
 
 import classes from './Input.scss';
+import classNames from 'classnames/bind';
 
 const input = ( props ) => {
     let inputElement = null;

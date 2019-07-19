@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames/bind';
-import classes from './Button.scss';
+import './Button.scss';
 
 
 const button = (props) => (
